@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "5.png",
       "idiom" : "tv",
       "scale" : "1x"
     },
@@ -9,6 +10,7 @@
       "scale" : "2x"
     },
     {
+      "filename" : "5-1.png",
       "idiom" : "tv-marketing",
       "scale" : "1x"
     },
