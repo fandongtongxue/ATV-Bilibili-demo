@@ -44,6 +44,10 @@ class FeedCollectionViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         layout.headerReferenceSize = .zero
+        layout.itemSize = CGSize(width: floor((UIScreen.main.bounds.size.width - 30 * 5 ) / 4), height: 300)
+        layout.minimumLineSpacing = 150
+        layout.minimumInteritemSpacing = 30
+        layout.sectionInset = UIEdgeInsets(top: 30, left: 30, bottom: 30, right: 30)
     }
 }
 
